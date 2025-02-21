@@ -37,15 +37,52 @@ An advanced tool for extracting structured tabular data from images using comput
 
 ### **Prerequisites**
 - Python 3.8+
-- pip
+- Conda
 
 ### **Setup**
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/Sudhanshu1304/table-transformer.git
-cd table-transformer
-pip install -r requirements.txt
-```
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Sudhanshu1304/table-transformer.git
+   cd table-transformer
+   ```
+
+2. **Create and Activate Conda Environment**
+
+   Create a new conda environment and activate it:
+
+   ```bash
+   conda create --name myenv python=3.12.7
+   conda activate myenv
+   ```
+
+3. **Install PaddlePaddle**
+
+   Install PaddlePaddle in the conda environment:
+
+   ```bash
+   python -m pip install paddlepaddle==3.0.0rc1 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+   ```
+
+4. **Install PaddleOCR**
+
+   Install PaddleOCR:
+
+   ```bash
+   pip install paddleocr
+   ```
+
+5. **Install Additional Dependencies**
+
+   Install other required packages:
+
+   ```bash
+   pip install ultralytics==8.3.75 pandas==2.2.3
+   pip install streamlit==1.41.1
+   ```
 
 ### **Project Structure**
 ```
@@ -64,10 +101,10 @@ project/
 
 ### **Usage**
 Run the Streamlit app to interact with the tool:
+
 ```bash
 streamlit run src/streamlit_app.py
 ```
-
 
 ### **Contributions**
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements or new features.
