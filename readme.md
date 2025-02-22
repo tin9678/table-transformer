@@ -1,13 +1,18 @@
-# **Table Extraction Tool: OCR & Computer Vision for Structured Data**
+# **🌟 Table Extraction Tool: OCR & Computer Vision for Structured Data**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Sudhanshu1304/table-transformer)
+[![Stars](https://img.shields.io/github/stars/Sudhanshu1304/table-transformer.svg)](https://github.com/Sudhanshu1304/table-transformer/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/Sudhanshu1304/table-transformer.svg)](https://github.com/Sudhanshu1304/table-transformer/watchers)
 
-## **Overview**
-An advanced tool for extracting structured tabular data from images using computer vision and OCR techniques, specifically designed to enhance Large Language Model (LLM) data processing capabilities.
+## Overview
 
-## **Features**
-- 📊 Automatic table detection in images.
-- 📝 OCR-based document processing.
-- 🧠 Integration of OCR and table detection models to create a linked list.
-- 💾 Export structured data as a DataFrame, HTML table, CSV, etc.
+Table Transformer is an advanced open-source tool that leverages state-of-the-art OCR and computer vision techniques to extract structured tabular data from images. It is ideal for enhancing LLM preprocessing, powering data analysis pipelines, and automating your data extraction tasks.
+
+## Features
+- 📊 **Automatic Table Detection**: Effortlessly detect tables in images.
+- 📝 **OCR-based Document Processing**: Extract text with high accuracy.
+- 🧠 **Integrated Models**: Seamlessly combine OCR and table detection models.
+- 💾 **Flexible Export Options**: Export data as DataFrame, HTML, CSV, and more.
 
 ---
 
@@ -80,8 +85,8 @@ An advanced tool for extracting structured tabular data from images using comput
    Install other required packages:
 
    ```bash
-   pip install ultralytics==8.3.75 pandas==2.2.3
-   pip install streamlit==1.41.1
+   pip install ultralytics pandas
+   pip install streamlit
    ```
 
 ### **Project Structure**
@@ -111,3 +116,19 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ### **License**
 This project is licensed under the MIT License.
+
+---
+
+## **Connect with Us**
+Stay updated and connect for any queries or contributions:
+
+- **GitHub**: [Sudhanshu1304](https://github.com/Sudhanshu1304)
+- **LinkedIn**: [Sudhanshu Pandey](https://www.linkedin.com/in/sudhanshu-pandey-847448193/)
+- **Medium**: [@sudhanshu.dpandey](https://medium.com/@sudhanshu.dpandey)
+
+---
+
+## **Support**
+If you find this tool useful, please consider giving it a ⭐ on GitHub. Your support is greatly appreciated!
+
+Happy Extracting!
